@@ -5,7 +5,7 @@ const app = express();
 const axios = require('axios');
 
 const WebSocket = require('ws');
-const wss = new WebSocket.Server({ port: 7071 });
+// const wss = new WebSocket.Server({ port: 7071 });
 // Create GET request
 app.get("/", (req, res) => {
   res.send("Express on Vercel");
